@@ -1,0 +1,17 @@
+.spots-preview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 1.5vw;
+  font-size: 14px;
+  margin-top: 35px;
+}
+
+.spot-img {
+  width: 20vw;
+  height: 20vh;
+}
+
+.spot-name {
+  color: red;
+}
