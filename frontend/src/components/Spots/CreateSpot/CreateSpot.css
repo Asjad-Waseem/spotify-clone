@@ -1,0 +1,89 @@
+.create-spot-container {
+  display: flex;
+  height: 100vh;
+}
+
+.create-spot-left-side-container {
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    #c322ae,
+    #c62b2b 100%,
+    rgba(181, 74, 118, 0.54) 0,
+    #9638ca 0,
+    #3c92cb 0,
+    #4680cf 0,
+    #4b77d1 0,
+    #5369d4 0,
+    #c15ad6 0
+  );
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 50%;
+}
+
+.create-spot-left-side-container-text {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.create-spot-right-side-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.create-spot-back-to-home-button {
+  background-color: #dcdcdc;
+  border: none;
+  border-radius: 100px;
+  color: #000;
+  font-size: 11px;
+  height: 27px;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  width: 90px;
+}
+
+.create-spot-back-to-home-button:hover {
+  background-color: #ebebeb;
+}
+
+.create-spot-right-side-form-container {
+  width: 75%;
+}
+
+.create-spot-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-spot-form-input {
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.create-spot-errors {
+  color: red !important;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 1px;
+  list-style: none;
+}
+
+.create-spot-form-button {
+  background-color: #ff1563;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  height: 40px;
+}

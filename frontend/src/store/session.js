@@ -32,6 +32,8 @@ export const login = (user) => async (dispatch) => {
   });
   const data = await response.json();
   dispatch(setUser(data));
+  window.location.reload();
+  window.location.assign("/");
   return response;
 };
 
@@ -58,6 +60,7 @@ export const signup = (user) => async (dispatch) => {
   });
   const data = await response.json();
   dispatch(setUser(data));
+  window.location.reload();
   return response;
 };
 
@@ -66,6 +69,7 @@ export const logout = () => async (dispatch) => {
     method: "DELETE",
   });
   dispatch(removeUser());
+  window.location.reload();
   return response;
 };
 

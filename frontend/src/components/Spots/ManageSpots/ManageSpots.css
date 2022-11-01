@@ -1,0 +1,148 @@
+.account-details {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.account-details-sidebar {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 24vw;
+}
+
+.account-details-header {
+  display: flex;
+  flex-direction: column;
+  padding: 33px;
+}
+
+.account-sidebar-header {
+  font-size: 20px;
+}
+
+.account-sidebar-sub-header {
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.account-detail-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: -15px;
+}
+
+.account-detail-link {
+  border-left: 8px solid transparent;
+  color: #000;
+  font-size: 18px;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.account-detail-link-active {
+  color: #000;
+  font-size: 18px;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.account-detail-link-active,
+.account-detail-link:hover {
+  background-color: #f1f1f1;
+  border-left: 8px solid #ff385c;
+}
+
+.account-details-divider {
+  background-color: #c8c8c8;
+  width: 1px;
+}
+
+.account-details-content-container {
+  background-color: #dcdcdc;
+  width: calc(100% - 24vw);
+}
+
+.user-spots-item {
+  align-items: center;
+  border-bottom: 1px solid #c8c8c8;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  padding: 5px 0;
+  margin-top: 30px;
+}
+
+.user-spots-item-img-container {
+  height: 30vh;
+  width: 25vw;
+}
+
+.user-spots-item-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.user-spots-details {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  margin-left: 50px;
+}
+
+.user-spot-detail-check-date {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.created-at {
+  margin-left: 45px;
+}
+
+.user-spot-edit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 30px;
+}
+
+.booking-edit-container-button {
+  background-color: #dcdcdc;
+  border: none;
+}
+
+.booking-button {
+  color: #4a4a4a;
+}
+
+.spot-edit-container-button {
+  background-color: #dcdcdc;
+  border: none;
+}
+
+.spot-button {
+  color: #4a4a4a;
+}
+
+.user-spot-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.user-spot-address-container {
+  margin-right: -60px;
+}
+
+.user-spot-address {
+  font-size: 16px;
+}
+
+.user-spot-check-bold {
+  font-size: 16px;
+  font-weight: 700;
+}

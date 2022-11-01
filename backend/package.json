@@ -6,7 +6,8 @@
   "scripts": {
     "sequelize": "sequelize",
     "sequelize-cli": "sequelize-cli",
-    "start": "per-env",
+    "__start": "per-env",
+    "start": "nodemon ./bin/www",
     "start:development": "nodemon ./bin/www",
     "start:production": "node ./bin/www"
   },

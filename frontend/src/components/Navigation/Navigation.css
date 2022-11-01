@@ -4,46 +4,47 @@ Header Section CSS .main {
   top: 0;
   left: 0;
   flex-direction: column;
+  width: 100%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95vw;
-  height: 50px;
+  height: 37px;
   top: 0;
-  left: 100;
-
-  padding: 10px;
-
   background-color: white;
-  border-bottom: 1px gray solid;
+  border-bottom: 0.5px solid #c8c8c8;
+  box-shadow: 0 0.5px 3px 0.2px #dcdcdc;
+  padding: 20px;
+  z-index: 1;
 }
 
 .header-left {
   display: flex;
-  margin-left: 8vw;
+  margin-left: 75px;
 }
 
 .header-right {
   display: flex;
   top: 0;
-  margin-right: 8vw;
+  margin-right: 75px;
 }
 
 .header-right > * {
   display: flex;
   position: fixed;
 
-  right: 8vw;
+  /* right: 8vw; */
+  right: 150px;
   top: 25px;
   background-color: white;
   list-style: none;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-direction: row;
 }
 
-.host-button {
+/* .host-button {
   display: flex;
   position: fixed;
   margin-right: 40px;
@@ -51,11 +52,10 @@ Header Section CSS .main {
   padding-left: 10px;
   padding-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
-
   border: none;
-}
+} */
 
-.host-button:hover {
+/* .host-button:hover {
   border-radius: 10px;
   background-color: rgb(233, 233, 233);
 }
@@ -65,7 +65,7 @@ Header Section CSS .main {
   color: black;
   font-size: small;
   text-decoration: none;
-}
+} */
 
 .profile-button {
   display: flex;
@@ -104,13 +104,11 @@ Header Section CSS .main {
 .sign-up {
   text-decoration: none;
   color: black;
-
   border: none;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
-
   background-color: white;
 }
 
@@ -136,4 +134,39 @@ Header Section CSS .main {
 .fa-airbnb {
   padding-right: 5px;
   color: #ff5a5f;
+}
+
+.homepage-links {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.homepage-link {
+  /* gap: 5px; */
+  text-decoration: none;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(85, 26, 139);
+  /* column-gap: 5px; */
+  cursor: pointer;
+  display: flex;
+  /* row-gap: 5px; */
+  text-decoration-color: rgba(0, 0, 238);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+}
+
+.homepage-link-name {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ff385c;
 }
